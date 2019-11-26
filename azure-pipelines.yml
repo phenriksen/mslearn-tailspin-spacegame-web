@@ -56,7 +56,7 @@ steps:
 
 - task: WhiteSource Bolt@19
   displayName: 'Run WhiteSource Bolt'
-  condition: |
+  condition: 
       and
       (
         succeeded(),
